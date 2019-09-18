@@ -2,10 +2,10 @@
 *.db
 .scrapy
 dbs
-example_project/open_news/thumbnails/*
-example_project/items/
-example_project/logs/
-example_project/twistd.pid
+project/project/open_news/thumbnails/*
+project/project/items/
+project/project/logs/
+project/project/twistd.pid
 tests/scraper/imgs/*
 MANIFEST
 .DS_Store
@@ -17,3 +17,11 @@ MANIFEST
 dist
 build
 docs/_build
+venv
+\.idea/
+
+env/
+
+mydocs/
+
+\.directory

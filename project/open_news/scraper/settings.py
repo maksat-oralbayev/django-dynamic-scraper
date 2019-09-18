@@ -10,8 +10,8 @@ from __future__ import unicode_literals
 import os, sys
 
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "example_project.settings")
-sys.path.insert(0, os.path.join(PROJECT_ROOT, "../../..")) #only for example_project
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "project.settings")
+sys.path.insert(0, os.path.join(PROJECT_ROOT, "../../..")) #only for project
 
 
 BOT_NAME = 'open_news'

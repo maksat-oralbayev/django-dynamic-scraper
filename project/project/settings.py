@@ -1,5 +1,5 @@
 from __future__ import unicode_literals
-# Django settings for example_project project.
+# Django settings for project project.
 import os, sys
 
 DEBUG = True
@@ -99,7 +99,7 @@ MIDDLEWARE_CLASSES = (
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'example_project.urls'
+ROOT_URLCONF = 'project.urls'
 
 TEMPLATES = [
     {
@@ -119,7 +119,7 @@ TEMPLATES = [
 ]
 
 # Python dotted path to the WSGI application used by Django's runserver.
-WSGI_APPLICATION = 'example_project.wsgi.application'
+WSGI_APPLICATION = 'project.wsgi.application'
 
 INSTALLED_APPS = (
     'django.contrib.auth',
